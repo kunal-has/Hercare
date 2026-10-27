@@ -1,0 +1,135 @@
+{
+  "profile": {
+    "id": "hercare_user_default",
+    "name": "Elena"
+  },
+  "periods": [
+    {
+      "id": "p-prev",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-22",
+      "flow": "medium",
+      "symptoms": [
+        "cramps"
+      ],
+      "note": "Previous cycle"
+    },
+    {
+      "id": "p-last",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-20",
+      "flow": "heavy",
+      "symptoms": [
+        "cramps",
+        "bloating",
+        "fatigue"
+      ],
+      "note": "Last cycle started"
+    }
+  ],
+  "medications": [
+    {
+      "id": "m1",
+      "name": "Iron Supplement",
+      "dosage": "1 tablet (65mg)",
+      "instructions": "Take in the morning with citrus juice",
+      "times": [
+        "08:00",
+        "20:00"
+      ],
+      "color": "blush",
+      "quantity": 14,
+      "initialQuantity": 60,
+      "lowStockThreshold": 10,
+      "refillOn": "2026-11-04",
+      "scheduleType": "daily"
+    },
+    {
+      "id": "m2",
+      "name": "Vitamin D3 & K2",
+      "dosage": "2 drops (2000 IU)",
+      "instructions": "Take with morning meal containing healthy fats",
+      "times": [
+        "09:00"
+      ],
+      "color": "gold",
+      "quantity": 45,
+      "initialQuantity": 90,
+      "lowStockThreshold": 15,
+      "scheduleType": "daily"
+    },
+    {
+      "id": "m3",
+      "name": "Magnesium Glycinate",
+      "dosage": "1 capsule (200mg)",
+      "instructions": "Take 30-45 minutes before sleep for relaxation",
+      "times": [
+        "21:30"
+      ],
+      "color": "plum",
+      "quantity": 8,
+      "initialQuantity": 60,
+      "lowStockThreshold": 10,
+      "refillOn": "2026-11-01",
+      "scheduleType": "daily"
+    }
+  ],
+  "doseRecords": {},
+  "waterEntries": [
+    {
+      "id": "w1",
+      "date": "2026-10-28",
+      "time": "08:30",
+      "amountMl": 250,
+      "note": "Morning glass"
+    },
+    {
+      "id": "w2",
+      "date": "2026-10-28",
+      "time": "11:15",
+      "amountMl": 500,
+      "note": "Desk refill"
+    },
+    {
+      "id": "w3",
+      "date": "2026-10-28",
+      "time": "13:45",
+      "amountMl": 250,
+      "note": "Post-lunch"
+    }
+  ],
+  "hydrationSettings": {
+    "dailyGoalMl": 2000,
+    "reminderIntervalMinutes": 90,
+    "wakingHoursStart": "08:00",
+    "wakingHoursEnd": "22:00",
+    "remindersEnabled": true,
+    "pausedForToday": false
+  },
+  "workouts": [
+    {
+      "id": "wo-1",
+      "activityType": "yoga",
+      "date": "2026-10-28",
+      "startTime": "07:15",
+      "endTime": "07:50",
+      "durationMinutes": 35,
+      "caloriesBurned": 140,
+      "intensity": "light",
+      "notes": "Morning gentle mobility flow"
+    },
+    {
+      "id": "wo-2",
+      "activityType": "running",
+      "date": "2026-10-27",
+      "startTime": "18:00",
+      "endTime": "18:32",
+      "durationMinutes": 32,
+      "distanceKm": 5.2,
+      "caloriesBurned": 310,
+      "intensity": "vigorous",
+      "isPersonalRecord": true,
+      "notes": "Sunset park run. Great pace!"
+    }
+  ]
+}
